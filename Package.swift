@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "RuntimeGuardSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "RuntimeGuardSDK", targets: ["RuntimeGuardSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "RuntimeGuardSDK",   // 1.4.0
-            url: "https://api.sentinelden.com/spm/runtimeguard_sdk/1.4.0/RuntimeGuardSDK.xcframework.zip",
-            checksum: "5fef36dad0cf71967240fdd10f434b126793e5962747273b9b08f60778635ad9"
+            name: "RuntimeGuardSDK",   // 2.0.0
+            url: "https://api.sentinelden.com/spm/runtimeguard_sdk/2.0.0/RuntimeGuardSDK.xcframework.zip",
+            checksum: "a96338adce0cfeef40e7af721c5990d31140c25af3e38a1afa59efb3a9381537"
         ),
     ]
 )
