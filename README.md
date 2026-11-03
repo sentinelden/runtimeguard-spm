@@ -37,7 +37,7 @@ In a `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sentinelden/runtimeguard-spm", from: "2.0.0"),
+    .package(url: "https://github.com/sentinelden/runtimeguard-spm", from: "2.1.0"),
 ],
 targets: [
     .target(name: "App", dependencies: [

@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "RuntimeGuardSDK",   // 2.0.0
-            url: "https://api.sentinelden.com/spm/runtimeguard_sdk/2.0.0/RuntimeGuardSDK.xcframework.zip",
-            checksum: "a96338adce0cfeef40e7af721c5990d31140c25af3e38a1afa59efb3a9381537"
+            name: "RuntimeGuardSDK",   // 2.1.0
+            url: "https://api.sentinelden.com/spm/runtimeguard_sdk/2.1.0/RuntimeGuardSDK.xcframework.zip",
+            checksum: "eaac9a445627f3ec6f9057ba5c9e732a9a9ccf50070e433f3156a2ddc1f7c670"
         ),
     ]
 )
